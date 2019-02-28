@@ -1,0 +1,83 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="pie.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+
+  <!-- This line removes any default padding and style.
+       You might only need one of these values set. -->
+  <style> 
+ 	 body 
+  	{ 
+  		padding: 0; margin: 0; 
+  	}
+  	h1{
+  		text-align: center;
+  		padding-top: 50px;
+  		padding-left: -50px;
+  	}
+  		#container{
+  			margin-left: 45%;
+  			width: 100%;
+  			height: 20px;
+  			margin-top: 30px;
+  			margin-bottom: 10px;
+  		
+  	}
+  	.circle{
+  		width: 20px;
+  		height: 20px;
+  		border-radius: 50%;
+  		float: left;
+  		margin-right: 120px;
+  	}
+  	.text{
+  		color:'black';
+  		margin-left:700px;
+  		padding-top: 50px;
+  		font-size: 24px;
+
+  	}
+  	#Bluecircle{
+  		background-color:#C9E2FF;
+  		
+  	}
+  	#Pinkcircle{
+  		background-color:#F36F93;
+  		
+  	}
+  	#Blackcircle{
+  		background-color: #323232;
+
+  	}
+  	.align{
+  		margin-left: 25px;
+  		font-size: 20px;
+  	}
+  	#chart{
+  		float: left;
+  		padding-top: 20px;
+  	}
+
+   </style>
+</head>
+
+<body>
+	<h1>  Diagram of the Causes of Mortality in the Army in the East </h1>
+	
+	<div id='container'>
+	<div class="circle" id="Bluecircle"><span class="align">Disease</span></div>
+	<div class="circle" id="Pinkcircle"><span class="align">wounds</span></div>
+	<div class="circle" id="Blackcircle"><span class="align">others</span></div>
+	</div>
+	<div id="chart">
+		<span class="text"> April 1854 - March 1855</span><span class="text" >April 1855 - March 1856</span>
+	</div >
+		
+
+</body>
+</html>
